@@ -7,10 +7,12 @@ import Cart from "./Pages/Cart";
 function App() {
   return (
     <div>
-      <div><Navbar/></div>
+      <div className="bg-[#61697c]">
+        <Navbar />
+      </div>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </div>
   );
